@@ -1,9 +1,8 @@
-@-moz-document url-prefix("https://au.topdesk.net") {
-  div[handle="progresstrail.invisible_for_caller"] {
+div[handle="progresstrail.invisible_for_caller"] {
     overflow: visible !important;
-  }
+}
 
-  div[handle="progresstrail.invisible_for_caller"]::after {
+div[handle="progresstrail.invisible_for_caller"]::after {
     color: #fff;
     padding: 3px 7px;
     margin-left: 10px;
@@ -11,29 +10,24 @@
     display: inline-block;
     bottom: 0;
     position: absolute;
-  }
+}
 
-  /* ON - Internal note */
-  body:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"])
-    div[handle="new-entry-field-actie"] {
+/* ON - Internal note */
+body:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"]) div[handle="new-entry-field-actie"] {
     background-color: rgb(187 187 187 / 30%);
-  }
+}
 
-  body:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"])
-    div[handle="progresstrail.invisible_for_caller"]::after {
+body:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"]) div[handle="progresstrail.invisible_for_caller"]::after {
     content: "Internal note";
     background-color: #3a3a3a;
-  }
+}
 
-  /* OFF - Message to user */
-  body:not(:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"]))
-    div[handle="new-entry-field-actie"] {
+/* OFF - Message to user */
+body:not(:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"])) div[handle="new-entry-field-actie"] {
     background-color: rgb(198 231 244 / 30%);
-  }
+}
 
-  body:not(:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"]))
-    div[handle="progresstrail.invisible_for_caller"]::after {
+body:not(:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"])) div[handle="progresstrail.invisible_for_caller"]::after {
     content: "Message to user";
     background-color: #003d73;
-  }
 }
