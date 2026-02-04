@@ -1,136 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <title>AU TopDesk Styling</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>AU TopDesk Styling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <style>
-    :root {
-      --au-blue: #003d73;
-      --au-light-blue: #e6f0f7;
-      --text-color: #1a1a1a;
-      --border-color: #d0d7de;
-    }
+    <style>
+        :root {
+            --au-blue: #003d73;
+            --au-light-blue: #e6f0f7;
+            --text-color: #1a1a1a;
+            --border-color: #d0d7de;
+        }
 
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, Helvetica, Arial, sans-serif;
-      color: var(--text-color);
-      background: #f8f9fb;
-      line-height: 1.5;
-    }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-color);
+            background: #f8f9fb;
+            line-height: 1.5;
+        }
 
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 3rem 1.5rem;
-    }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
 
-    header {
-      margin-bottom: 2.5rem;
-    }
+        h1 {
+            margin: 0 0 0.75rem;
+            font-size: 2rem;
+            color: var(--au-blue);
+        }
 
-    h1 {
-      margin: 0 0 0.5rem;
-      font-size: 2rem;
-      color: var(--au-blue);
-    }
+        h2 {
+            margin-top: 2rem;
+            font-size: 1.3rem;
+            color: var(--au-blue);
+        }
 
-    p.lead {
-      font-size: 1.1rem;
-      color: #444;
-    }
+        p {
+            color: #444;
+        }
 
-    .card {
-      background: #fff;
-      border: 1px solid var(--border-color);
-      border-radius: 8px;
-      padding: 2rem;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-    }
+        .card {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+        }
 
-    .install-button {
-      display: inline-block;
-      margin-top: 1.5rem;
-      padding: 0.75rem 1.5rem;
-      font-size: 1rem;
-      font-weight: 600;
-      color: #fff;
-      background: var(--au-blue);
-      border-radius: 6px;
-      text-decoration: none;
-    }
+        .install-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+            background: var(--au-blue);
+            border-radius: 6px;
+            text-decoration: none;
+        }
 
-    .install-button:hover {
-      background: #002f59;
-    }
+        .install-button:hover {
+            background: #002f59;
+        }
 
-    .note {
-      margin-top: 1.5rem;
-      padding: 1rem;
-      background: var(--au-light-blue);
-      border-left: 4px solid var(--au-blue);
-      border-radius: 4px;
-      font-size: 0.95rem;
-    }
+        .note {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: var(--au-light-blue);
+            border-left: 4px solid var(--au-blue);
+            border-radius: 4px;
+            font-size: 0.95rem;
+        }
 
-    footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #666;
-    }
+        ul {
+            padding-left: 1.25rem;
+        }
 
-    footer a {
-      color: var(--au-blue);
-      text-decoration: none;
-    }
+        footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
 
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
+        footer a {
+            color: var(--au-blue);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
-  <main class="container">
-    <header>
-      <p class="lead">
-        Shared UI improvements for TopDesk at Aarhus University,
-        distributed via the Stylus browser extension.
-      </p>
-    </header>
-
-    <section class="card">
-      <h2>Installation</h2>
-      <ol>
-        <li>Install the <strong>Stylus</strong> browser extension</li>
-        <li>Click the install button below</li>
-        <li>Click "Install" in Stylus</li>
-      </ol>
-
-      <a
-        class="install-button"
-        href="https://aarhusuniversitet.github.io/au-topdesk-styling/dist/au-topdesk.user.css"
-      >
-        Install AU TopDesk Styling
-      </a>
-
-      <div class="note">
-        The style applies only to <strong>https://au.topdesk.net</strong> and
-        updates automatically when changes are published.
-      </div>
-    </section>
-
-    <footer>
-      <p>
-        Source code:
-        <a href="https://github.com/AarhusUniversitet/au-topdesk-styling">
-          github.com/AarhusUniversitet/au-topdesk-styling
-        </a>
-      </p>
-    </footer>
-  </main>
+    <main class="container">
+        <section class="card">
+            <h1>AU TopDesk Styling</h1>
+            <p> Shared UI improvements for TopDesk at Aarhus University. The styles are installed via the Stylus browser extension and update automatically. </p>
+            <h2>Step 1: Install Stylus</h2>
+            <p> Stylus is a browser extension that allows you to install custom styles. </p>
+            <ul>
+                <li>
+                    <a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank" rel="noopener"> Install Stylus for Chrome </a>
+                </li>
+                <li>
+                    <a href="https://addons.mozilla.org/en-US/firefox/addon/styl-us/" target="_blank" rel="noopener"> Install Stylus for Firefox </a>
+                </li>
+            </ul>
+            <h2>Step 2: Open AU TopDesk Styling in Stylus</h2>
+            <p>Click the button below to open the style in Stylus.</p>
+            <a class="install-button" href="https://aarhusuniversitet.github.io/au-topdesk-styling/dist/au-topdesk.user.css"> Open AU TopDesk Styling </a>
+            <h2>Step 3: Install in Stylus</h2>
+            <p>Click <strong>Install</strong> in Stylus </p>
+            <div class="note"> The style applies only to <strong>https://au.topdesk.net</strong>. It contains only visual/UI adjustments and updates automatically when changes are published. </div>
+        </section>
+        <footer>
+            <p> Source code: <a href="https://github.com/AarhusUniversitet/au-topdesk-styling"> github.com/AarhusUniversitet/au-topdesk-styling </a>
+            </p>
+        </footer>
+    </main>
 </body>
+
 </html>
