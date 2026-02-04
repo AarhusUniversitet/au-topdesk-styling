@@ -1,1 +1,15 @@
-@import url("https://raw.githubusercontent.com/AarhusUniversitet/au-topdesk-styling/main/dist/modules/caller-switch.css");
+/* ==UserStyle==
+@name           AU TopDesk Styling
+@namespace      github.com/AarhusUniversitet/au-topdesk-styling
+@version        1.0.0
+@description    Shared AU TopDesk UI fixes
+@homepageURL    https://github.com/AarhusUniversitet/au-topdesk-styling
+@supportURL     https://github.com/AarhusUniversitet/au-topdesk-styling/issues
+@updateURL      https://raw.githubusercontent.com/AarhusUniversitet/au-topdesk-styling/main/dist/au-topdesk.css
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("au.topdesk.net") {
+    @import url("https://raw.githubusercontent.com/AarhusUniversitet/au-topdesk-styling/main/dist/modules/caller-switch.css");
+}
