@@ -1,3 +1,5 @@
+/**** Style for element after "Make invisible to caller" checkbox ****/
+
 div[handle="progresstrail.invisible_for_caller"] {
     overflow: visible !important;
 }
@@ -7,27 +9,26 @@ div[handle="progresstrail.invisible_for_caller"]::after {
     padding: 3px 7px;
     margin-left: 10px;
     border-radius: 5px;
-    display: inline-block;
-    bottom: 0;
+    bottom: -1px;
     position: absolute;
 }
 
-/* ON - Internal note */
+/* Checkbox ON - Internal note */
 body:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"]) div[handle="new-entry-field-actie"] {
     background-color: rgb(187 187 187 / 30%);
 }
 
 body:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"]) div[handle="progresstrail.invisible_for_caller"]::after {
     content: "Internal note";
-    background-color: #3a3a3a;
+    background-color: rgb(69 69 69);
 }
 
-/* OFF - Message to user */
+/* Checkbox OFF - Message to caller */
 body:not(:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"])) div[handle="new-entry-field-actie"] {
-    background-color: rgb(198 231 244 / 30%);
+    background-color: rgb(207 244 198 / 30%);
 }
 
 body:not(:has(button[handle="invisible-for-caller-invisible-for-caller-checkbox"][mangovalue="true"])) div[handle="progresstrail.invisible_for_caller"]::after {
-    content: "Message to user";
-    background-color: #003d73;
+    content: "Message to caller";
+    background-color: rgb(23 155 25);
 }

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AU TopDesk Styling
 @namespace      github.com/AarhusUniversitet/au-topdesk-styling
-@version        1.0.0
+@version        1.0.1
 @description    Shared AU TopDesk UI fixes
 @homepageURL    https://github.com/AarhusUniversitet/au-topdesk-styling
 @supportURL     https://github.com/AarhusUniversitet/au-topdesk-styling/issues
@@ -11,5 +11,6 @@
 ==/UserStyle== */
 
 @-moz-document domain("au.topdesk.net") {
-    @import url("https://aarhusuniversitet.github.io/au-topdesk-styling/dist/modules/caller-switch.css");
+    @import url("https://aarhusuniversitet.github.io/au-topdesk-styling/dist/modules/ticket-make-invisible.css");
+    @import url("https://aarhusuniversitet.github.io/au-topdesk-styling/dist/modules/ticket-entry-trail.css");
 }
