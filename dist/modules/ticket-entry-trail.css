@@ -45,11 +45,11 @@ div[guielement="pt-trail"] div[role="listitem"][aria-label^="Mail import message
 
 /* Attached file */
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Attached file"] {
-    background-color: rgb(222 198 244 / 30%);
+    background-color: rgb(198 231 244 / 15%);
 }
 
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Attached file"] div[guielement="pt-entry-sidebar"] {
-    background-color: rgb(222 198 244 / 100%);
+    background-color: rgb(198 231 244 / 100%);
 }
 
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Attached file support"],
