@@ -1,0 +1,14 @@
+{
+  "name": "au-topdesk-styling",
+  "version": "1.0.5",
+  "description": "Shared AU TOPdesk UI fixes",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch"
+  },
+  "keywords": ["topdesk", "styling", "userstyle"],
+  "license": "MIT",
+  "devDependencies": {
+    "lightningcss": "^1.27.0"
+  }
+}
