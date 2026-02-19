@@ -1,0 +1,59 @@
+:root {
+    /*** Colors ***/
+
+    /* Red */
+    --color-solid-red: rgb(200 50 50);
+    --color-solid-red-light: rgb(255 230 230);
+    --color-trans-red-15: rgb(255 200 200 / 15%);
+    --color-trans-red-30: rgb(255 200 200 / 30%);
+    --color-trans-red-80: rgb(255 200 200 / 80%);
+    --color-trans-red-100: rgb(255 200 200 / 100%);
+
+    /* Blue */
+    --color-solid-blue: rgb(5 122 171);
+    --color-solid-blue-light: rgb(238 248 252);
+    --color-trans-blue-15: rgb(198 231 244 / 15%);
+    --color-trans-blue-30: rgb(198 231 244 / 30%);
+    --color-trans-blue-80: rgb(198 231 244 / 80%);
+    --color-trans-blue-100: rgb(198 231 244 / 100%);
+
+    /* Green */
+    --color-solid-green: rgb(23 155 25);
+    --color-solid-green-light: rgb(241 252 238);
+    --color-trans-green-15: rgb(207 244 198 / 15%);
+    --color-trans-green-30: rgb(207 244 198 / 30%);
+    --color-trans-green-80: rgb(207 244 198 / 80%);
+    --color-trans-green-100: rgb(207 244 198 / 100%);
+
+    /* Orange */
+    --color-solid-orange: rgb(230 120 30);
+    --color-solid-orange-light: rgb(255 240 220);
+    --color-trans-orange-15: rgb(255 220 180 / 15%);
+    --color-trans-orange-30: rgb(255 220 180 / 30%);
+    --color-trans-orange-80: rgb(255 220 180 / 80%);
+    --color-trans-orange-100: rgb(255 220 180 / 100%);
+
+    /* Yellow */
+    --color-solid-yellow: rgb(200 180 0);
+    --color-solid-yellow-light: rgb(255 255 230);
+    --color-trans-yellow-15: rgb(255 255 200 / 15%);
+    --color-trans-yellow-30: rgb(255 255 200 / 30%);
+    --color-trans-yellow-80: rgb(255 255 200 / 80%);
+    --color-trans-yellow-100: rgb(255 255 200 / 100%);
+
+    /* Purple */
+    --color-solid-purple: rgb(150 80 200);
+    --color-solid-purple-light: rgb(245 230 255);
+    --color-trans-purple-15: rgb(230 200 255 / 15%);
+    --color-trans-purple-30: rgb(230 200 255 / 30%);
+    --color-trans-purple-80: rgb(230 200 255 / 80%);
+    --color-trans-purple-100: rgb(230 200 255 / 100%);
+
+    /* Gray */
+    --color-solid-gray: rgb(69 69 69);
+    --color-solid-gray-light: rgb(240 240 240);
+    --color-trans-gray-15: rgb(187 187 187 / 15%);
+    --color-trans-gray-30: rgb(187 187 187 / 30%);
+    --color-trans-gray-80: rgb(187 187 187 / 80%);
+    --color-trans-gray-100: rgb(187 187 187 / 100%);
+}

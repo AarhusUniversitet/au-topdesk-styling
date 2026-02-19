@@ -1,0 +1,40 @@
+/**** Widget selection painter ****/
+
+body#topgrid {
+    background: transparent;
+}
+
+/* Red widgets */
+div[guielement="widget_container"]:has(div[mangoinfobox$="[r]"]) * {
+    background-color: var(--color-solid-red-light) !important;
+}
+
+/* Blue widgets */
+div[guielement="widget_container"]:has(div[mangoinfobox$="[b]"]) * {
+    background-color: var(--color-solid-blue-light) !important;
+}
+
+/* Green widgets */
+div[guielement="widget_container"]:has(div[mangoinfobox$="[g]"]) * {
+    background-color: var(--color-solid-green-light) !important;
+}
+
+/* Orange widgets */
+div[guielement="widget_container"]:has(div[mangoinfobox$="[o]"]) * {
+    background-color: var(--color-solid-orange-light) !important;
+}
+
+/* Yellow widgets */
+div[guielement="widget_container"]:has(div[mangoinfobox$="[y]"]) * {
+    background-color: var(--color-solid-yellow-light) !important;
+}
+
+/* Purple widgets */
+div[guielement="widget_container"]:has(div[mangoinfobox$="[p]"]) * {
+    background-color: var(--color-solid-purple-light) !important;
+}
+
+/* Grey widgets */
+div[guielement="widget_container"]:has(div[mangoinfobox$="[gr]"]) * {
+    background-color: var(--color-solid-gray-light) !important;
+}

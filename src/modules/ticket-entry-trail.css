@@ -10,46 +10,46 @@ div[guielement="pt-trail"] div[role="listitem"] div[handle="crt-gradient"] {
 
 /* Entry from operator (visible to caller) */
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Entry from user"][mstyles=""] {
-    background-color: rgb(207 244 198 / 30%);
+    background-color: var(--color-trans-green-30);
 }
 
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Entry from user"][mstyles=""] div[guielement="pt-entry-sidebar"] {
-    background-color: rgb(207 244 198 / 100%);
+    background-color: var(--color-trans-green-100);
 }
 
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Entry from user"] div[handle="crt-gradient"] {
-    background-image: linear-gradient(transparent, rgb(207 244 198 / 80%)) !important;
+    background-image: linear-gradient(transparent, var(--color-trans-green-80)) !important;
 }
 
 /* Entry from operator (invisible to caller) */
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Entry from user"][mstyles="pt-invisible"] {
-    background-color: rgb(187 187 187 / 30%);
+    background-color: var(--color-trans-gray-30);
 }
 
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Entry from user"][mstyles="pt-invisible"] div[handle="crt-gradient"] {
-    background-image: linear-gradient(transparent, rgb(187 187 187 / 80%)) !important;
+    background-image: linear-gradient(transparent, var(--color-trans-gray-80)) !important;
 }
 
 /* Entry from caller */
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Mail import message"] {
-    background-color: rgb(198 231 244 / 30%);
+    background-color: var(--color-trans-blue-30);
 }
 
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Mail import message"] div[guielement="pt-entry-sidebar"] {
-    background-color: rgb(198 231 244 / 100%);
+    background-color: var(--color-trans-blue-100);
 }
 
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Mail import message"] div[handle="crt-gradient"] {
-    background-image: linear-gradient(transparent, rgb(198 231 244 / 80%)) !important;
+    background-image: linear-gradient(transparent, var(--color-trans-blue-80)) !important;
 }
 
 /* Attached file */
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Attached file"] {
-    background-color: rgb(198 231 244 / 15%);
+    background-color: var(--color-trans-blue-15);
 }
 
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Attached file"] div[guielement="pt-entry-sidebar"] {
-    background-color: rgb(198 231 244 / 100%);
+    background-color: var(--color-trans-blue-100);
 }
 
 div[guielement="pt-trail"] div[role="listitem"][aria-label^="Attached file support"],

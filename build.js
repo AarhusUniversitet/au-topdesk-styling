@@ -24,11 +24,29 @@ const footer = `
 }`;
 
 // Bundle and minify CSS modules
-const modulesDir = 'dist/modules';
-const modules = fs.readdirSync(modulesDir)
-  .filter(file => file.endsWith('.css'))
+const modulesDir = 'src/modules';
+
+// Priority files to bundle first
+const priorityFiles = [
+  'variables.css'
+];
+
+// Get all CSS files
+const allFiles = fs.readdirSync(modulesDir)
+  .filter(file => file.endsWith('.css'));
+
+// Separate priority and remaining files
+const priorityModules = priorityFiles
   .map(file => path.join(modulesDir, file))
-  .sort(); // Ensure consistent build order
+  .filter(filePath => fs.existsSync(filePath));
+
+const remainingModules = allFiles
+  .filter(file => !priorityFiles.includes(file))
+  .map(file => path.join(modulesDir, file))
+  .sort();
+
+// Combine all modules in order: priority first, then the rest
+const modules = [...priorityModules, ...remainingModules];
 
 let combinedCSS = '';
 
